@@ -3,7 +3,7 @@ project_name: "block-jira"
 ################ Constants ################
 
 constant: CONNECTION_NAME {
-  value: "brick-layer"
+  value: "he_jira_connect"
   export: override_optional
 }
 
