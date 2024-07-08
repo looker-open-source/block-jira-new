@@ -1,0 +1,28 @@
+{
+  "label": "Jira",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/block-icons/jira_icon.png",
+    "tagline": "Analyze and monitor your team's performance with Looker's Jira block"
+  },
+
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "SCHEMA_NAME": {
+      "label": "Schema Name"
+    },
+    "COMPANY_DOMAIN": {
+      "label": "Company Domain"
+    }
+  },
+  "models": [
+    {
+      "name": "block_jira_v2",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ]
+
+}
