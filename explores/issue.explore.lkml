@@ -41,7 +41,7 @@ explore: issue {
   }
   join:  issue_type {
     type:  left_outer
-    sql_on: ${issue.id} = ${issue_type.id} ;;
+    sql_on: ${issue.issue_type} = ${issue_type.id} ;;
     relationship: many_to_one
   }
   join:  priority {
